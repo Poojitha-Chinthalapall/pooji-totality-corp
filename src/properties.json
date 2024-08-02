@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Beautiful Beach House",
+    "description": "A lovely beach house with sea views.",
+    "price": 200,
+    "image": "beach-house.jpg",
+    "location": "California",
+    "bedrooms": 3,
+    "amenities": ["WiFi", "Pool"]
+  },
+  {
+    "id": 2,
+    "title": "Cozy Mountain Cabin",
+    "description": "A cozy cabin in the mountains.",
+    "price": 150,
+    "image": "mountain-cabin.jpg",
+    "location": "Colorado",
+    "bedrooms": 2,
+    "amenities": ["Fireplace", "Hot Tub"]
+  }
+]

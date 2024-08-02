@@ -68,3 +68,106 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Totality Corp
+
+Description
+
+This project is a property booking application built with React. It allows users to browse property listings, filter them based on various criteria, add properties to a cart, and proceed to a checkout form to complete their booking.
+
+Features
+
+- Property Listings: Displays a list of properties with details such as image, title, description, and price.
+- Filtering: Filter properties by location, number of bedrooms, and price.
+- Cart Management: Add and remove properties from the cart, with real-time updates.
+- Checkout: A form to capture user booking details including name, email, and payment information.
+- Responsive Design: Ensures the application is usable on mobile, tablet, and desktop screens.
+
+Technologies Used
+
+- React: A JavaScript library for building user interfaces.
+- Material-UI: A popular React UI framework for building responsive and visually appealing components.
+- CSS Flexbox/Grid: Used for responsive layout design.
+- JSON: Used for simulating property listings data.
+
+Getting Started
+
+Prerequisites
+
+- Node.js: Ensure you have Node.js installed. You can download it from here.
+- npm: Node package manager, comes with Node.js.
+
+Installation
+
+1.Clone the repository:
+
+git clone https://github.com/your-username/totality-corp.git
+cd totality-corp
+
+2.Install dependencies:
+
+npm install
+
+Running the Application Locally
+
+1.Start the development server:
+
+npm start
+
+2.Open your browser and navigate to http://localhost:3000. The application should be running and you can start interacting with it.
+
+Building for Production
+
+To create a production build of the application:
+
+npm run build
+
+This will create a build directory with the production build of your app.
+
+Deploying
+
+You can deploy the application using services like Netlify or Vercel. Below are the steps for deploying on Netlify:
+
+1.Go to Netlify and sign up for an account.
+
+2.Click on "New site from Git" and connect your GitHub repository.
+
+3.Select your repository and branch (typically main).
+
+4.For the build command, enter npm run build.
+
+5.For the publish directory, enter build.
+
+6.Click on "Deploy site" and wait for the deployment to complete.
+
+Testing
+
+To run tests:
+
+npm test
+
+Folder Structure Explained
+
+1.components: Contains all the React components along with their CSS files.
+
+2.assets: For storing images and other static assets.
+
+3.styles: General CSS files for the entire application.
+
+4.public: Static files like index.html.
+
+Contributing
+
+1.Fork the repository.
+
+2.Create a new branch (git checkout -b feature-branch).
+
+3.Make your changes and commit them (git commit -m 'Add some feature').
+
+4.Push to the branch (git push origin feature-branch).
+
+5.Open a Pull Request.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.

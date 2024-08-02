@@ -1,0 +1,11 @@
+.property-filter {
+  display: flex;
+  justify-content: space-around;
+  margin: 16px;
+}
+
+.property-filter select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
